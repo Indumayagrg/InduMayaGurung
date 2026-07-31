@@ -1,14 +1,21 @@
-style.css
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600&display=swap');
 
-.outer-class{
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Outer card container */
+.outer-class {
     background-color: transparent;
-    width: 90%;
-    max-width: 300px;
-    height: 420px;
+    width: 100vw;
+    height: 100vh;
     perspective: 1000px;
-    margin: auto;
-    margin-top: 100px;
 }
 
 .outer-class:hover .inner-class{
@@ -102,5 +109,3 @@ style.css
 
 
 
-
-/* Made with '🖤' by Code Fed */
